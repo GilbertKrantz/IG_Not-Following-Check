@@ -19,9 +19,15 @@ This project helps identify Instagram accounts that are not following you back. 
 
 ## Usage
 
-- Use the `script.js` file to run the code in your instagram account console.
-- Download the result and convert it to a JSON file.
-- Open the `code.ipynb` file in Jupyter Notebook to interact with the code.
+- Open your Instagram account in a browser.
+- Open the developer console by pressing `Ctrl + Shift + J` or `Cmd + Option + J`.
+- Create script using `script_maker.py` file.
+- Copy the script and paste it in the console.
+- Run the script.
+- Download the result and save the path.
+- Open the `code.ipynb` file in Jupyter Notebook.
+- Run the code and provide the path of the downloaded file.
+- The code will display the accounts that are not following you back.
 
 ## Dependencies
 
