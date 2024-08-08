@@ -195,11 +195,11 @@ async function getUser(username) {
     const encodedString = payloadString;
   
     console.log(
-      '%cDownload the file and upload it to %cigcount.com',
+      '%cDownload the file andstore it in the same folder as the code file',
       'color: black; font-weight: bold; background-color: #f0f8ff; padding: 2px;',
       'color: white; font-weight: bold; background-color: rgb(181, 77, 255); padding: 6px;'
     );
-        downloadTxt(encodedString, "igcount-upload-clzlnj7jy000312e7f9qx4itj.txt")
+        downloadTxt(encodedString, "data-upload-clzlnj7jy000312e7f9qx4itj.txt")
   };
   
   async function getId() {
@@ -211,7 +211,6 @@ async function getUser(username) {
     const data = await response.json();
   
   }
-  console.log("%cigcount", "color:white;background: rgb(181, 77, 255); font-weight: bold; font-size: 24px; padding:1rem");
   console.log("%cCollecting your followers and followings...", "color: black; font-weight: bold; background-color: #f0f8ff; padding: 2px;");
   console.log("%cThis may take a while if you have many followers/followings", "color: black; font-weight: bold; background-color: #f0f8ff; padding: 2px;");
   getUser("Webechn").then((userId) => {
